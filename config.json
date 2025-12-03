@@ -1,1 +1,27 @@
 
+### 3. config.json
+```json
+{
+    "defaults": {
+        "bot_count": 20,
+        "delay_between_bots": 1.5,
+        "headless_mode": false,
+        "max_bots_per_run": 100
+    },
+    "colors": {
+        "success": "green",
+        "error": "red",
+        "warning": "yellow",
+        "info": "cyan",
+        "question": "magenta"
+    },
+    "api_endpoints": {
+        "quizizz_api": "https://quizizz.com/quiz/",
+        "join_page": "https://quizizz.com/join"
+    },
+    "features": {
+        "auto_download_driver": true,
+        "save_logs": true,
+        "show_progress_bars": true
+    }
+}
