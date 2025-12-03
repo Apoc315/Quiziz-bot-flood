@@ -1,5 +1,5 @@
 ### 3. config.json
-```json
+json
 {
     "defaults": {
         "bot_count": 20,
